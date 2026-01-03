@@ -1,0 +1,32 @@
+{
+  "name": "code-challenge-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fe-dev": "nodemon --ext html frontendServer.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/groq": "^1.0.2",
+    "@langchain/langgraph": "^1.0.7",
+    "@sendgrid/mail": "^8.1.6",
+    "body-parser": "2.2.0",
+    "cheerio": "^1.1.2",
+    "diff": "8.0.2",
+    "dotenv": "^17.2.1",
+    "express": "5.1.0",
+    "mongodb": "6.18.0",
+    "mongoose": "8.16.5",
+    "puppeteer": "24.15.0",
+    "zod": "^4.3.4"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "3.1.10"
+  }
+}
